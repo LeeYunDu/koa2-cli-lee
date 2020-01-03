@@ -28,11 +28,6 @@ export const testPost5 = async (ctx: any) => {
     data:new Date()
   };
 };
-export const testPost4 = async (ctx: any) => {
-  ctx.body = {
-    message: "this is test Post",
-    data:new Date()
-  };
-};
+
 
 
