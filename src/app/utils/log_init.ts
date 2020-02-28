@@ -24,5 +24,5 @@ export const initLogPath = function() {
     }
   }
 };
-let baseLogPath = path.resolve(__dirname,'../uploadFile')
-confirmPath(baseLogPath)
+let baseUploadPath = path.resolve('./uploadFile')
+confirmPath(baseUploadPath)

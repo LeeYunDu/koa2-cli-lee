@@ -30,12 +30,12 @@ export const uploadFileTest = async ctx => {
 };
 //文件上传
 //配置
-let baseLogPath = path.resolve(__dirname, "../uploadFile");
+let baseUploadPath = path.resolve('./uploadFile')
 
 var storage = multer.diskStorage({
   //文件保存路径
   destination: function(req, file, cb) {
-    cb(null, baseLogPath);
+    cb(null, baseUploadPath);
   },
   //修改文件名称
   filename: function(req, file, cb) {

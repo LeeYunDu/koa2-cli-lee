@@ -1,7 +1,7 @@
 import * as path from 'path';
 
 //日志根目录
-let baseLogPath = path.resolve(__dirname,'../logs')
+let baseLogPath = path.resolve('./logs')
 
 
 //错误日志文件夹
