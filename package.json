@@ -30,7 +30,7 @@
     "@types/koa-router": "^7.0.42",
     "@types/koa-bodyparser": "^4.3.0",
     "@types/koa-json": "^2.0.18",
-    "mocha": "^6.2.2",
+    "mocha": "^10.2.0",
     "nodemon": "^2.0.2",
     "ts-node": "^8.5.4",
     "typescript": "^3.7.3"
